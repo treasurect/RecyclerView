@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="57dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/main_label_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="sans-serif-medium"
+            android:text="Christmas"
+            android:drawableLeft="@mipmap/ic_title_sign"
+            android:drawablePadding="14dp"
+            android:textColor="#FF12171A"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/main_label_to_more"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="6dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="9dp"
+            android:gravity="center_vertical"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:background="@drawable/more_click_selector"
+            android:drawablePadding="4dp"
+            android:drawableRight="@mipmap/ic_next"
+            android:fontFamily="sans-serif-medium"
+            android:text="More"
+            android:textColor="#FF12171A"
+            android:textSize="16dp" />
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/main_label_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="1dp"/>
+    <View
+        android:id="@+id/main_label_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:visibility="gone"/>
+
+</LinearLayout>

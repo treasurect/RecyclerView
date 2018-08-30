@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/item_download_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/item_download_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/pic_beautiful_girl" />
+
+        <ImageView
+            android:id="@+id/item_download_checkbox"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_margin="5dp"
+            android:src="@mipmap/ic_uncheck" />
+        <LinearLayout
+            android:id="@+id/item_download_top_layout"
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/color_black_shadow"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/item_download_top"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_top_unclick" />
+
+            <View
+                android:layout_width="1dp"
+                android:layout_height="28dp"
+                android:background="#A7A7A7" />
+
+            <ImageView
+                android:id="@+id/item_download_low"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@mipmap/ic_low_unclick" />
+        </LinearLayout>
+        <View
+            android:id="@+id/item_download_cover"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="?selectableItemBackground" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/item_download_use"
+        android:layout_width="wrap_content"
+        android:layout_height="33dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/scene_use_item_selector"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:paddingBottom="2dp"
+        android:text="USE"
+        android:textColor="@color/color_white"
+        android:textSize="14sp" />
+
+</LinearLayout>

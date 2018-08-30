@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bitmap android:tint="@color/color_black_text"
+    android:src="@drawable/ic_delete"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

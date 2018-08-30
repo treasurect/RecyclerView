@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yk="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/loading_progress_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4D2F2F2F"
+    android:layout_marginTop="?attr/actionBarSize">
+
+    <RelativeLayout
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="28dp"
+        android:gravity="center">
+
+        <com.treasure.recycler_view.widget.LeafLoadView
+            android:id="@+id/loading_progress_view"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            yk:backgroundColor="#FF3E3E3E"
+            yk:borderColor="#cfcbcb"
+            yk:borderWidth1="12"
+            yk:circleColor="#ffffff"
+            yk:circleLeftStyle="true"
+            yk:circleWidth="8"
+            yk:rotationSpeed="1000"
+            yk:seekColor="#FF0BA6E8" />
+        <TextView
+            android:id="@+id/loading_progress_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="49dp"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/color_white"
+            android:textSize="14dp"
+            android:text="0%"/>
+
+        <ImageView
+            android:id="@+id/loading_progress_image"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="7dp"
+            android:src="@mipmap/ic_fengshan" />
+    </RelativeLayout>
+</FrameLayout>

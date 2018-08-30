@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/toolbar_more"
+        android:icon="@drawable/toolbar_icon_more_color"
+        android:orderInCategory="100"
+        android:title="更多"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/toolbar_delete"
+        android:icon="@drawable/toolbar_icon_delete_color"
+        android:orderInCategory="100"
+        android:title="删除"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/toolbar_report"
+        android:icon="@drawable/toolbar_icon_report_color"
+        android:orderInCategory="100"
+        android:title="举报"
+        app:showAsAction="ifRoom" />
+</menu>
