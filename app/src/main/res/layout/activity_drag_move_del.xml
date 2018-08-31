@@ -5,21 +5,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.treasure.recycler_view.activity.VerticalActivity">
+    tools:context="com.treasure.recycler_view.activity.DragMoveDelActivity">
+
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
+        style="@style/NoSpaceActionBarTheme"
+        android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
-        android:layout_width="match_parent"
-        android:background="@color/color_white"
-        style="@style/NoSpaceActionBarTheme"/>
-    <com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout
-        android:id="@+id/refresh_layout"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="#f8f8f8">
+        android:background="@color/color_white" />
+
     <android.support.v7.widget.RecyclerView
         android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
-    </com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout>
 </LinearLayout>

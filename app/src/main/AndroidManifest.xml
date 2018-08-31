@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.treasure.recycler_view">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:name=".TAPP"
         android:allowBackup="true"
@@ -20,7 +22,9 @@
         <activity android:name=".activity.VerDelReportActivity" />
         <activity android:name=".activity.VerGridActivity" />
         <activity android:name=".activity.HorVerActivity" />
-        <activity android:name=".activity.WaterFallActivity"></activity>
+        <activity android:name=".activity.WaterFallActivity" />
+        <activity android:name=".activity.SnapHelperActivity" />
+        <activity android:name=".activity.DragMoveDelActivity"></activity>
     </application>
 
 </manifest>

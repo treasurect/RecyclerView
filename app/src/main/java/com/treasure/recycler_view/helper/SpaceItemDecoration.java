@@ -1,4 +1,4 @@
-package com.treasure.recycler_view.divider;
+package com.treasure.recycler_view.helper;
 
 import android.graphics.Rect;
 import android.support.v7.widget.RecyclerView;
@@ -24,6 +24,13 @@ public class SpaceItemDecoration extends RecyclerView.ItemDecoration {
 
         int position = parent.getChildAdapterPosition(view); // item position
         switch (columnCount) {
+            case 0://视频
+                outRect.left = space / 2;
+                if (position == 0) {
+                    outRect.left = space * 2;
+                }
+                outRect.right = space / 2;
+                break;
             case 1://纵向1列
                 outRect.top = space;
                 break;

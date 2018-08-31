@@ -26,7 +26,7 @@ import com.lcodecore.tkrefreshlayout.TwinklingRefreshLayout;
 import com.treasure.recycler_view.adapter.VerDelReportAdapter;
 import com.treasure.recycler_view.R;
 import com.treasure.recycler_view.bean.VerDelReportBean;
-import com.treasure.recycler_view.divider.SpaceItemDecoration;
+import com.treasure.recycler_view.helper.SpaceItemDecoration;
 import com.treasure.recycler_view.utils.Tools;
 
 import java.util.ArrayList;

@@ -25,7 +25,7 @@ import com.treasure.recycler_view.adapter.HorVerItemAdapter;
 import com.treasure.recycler_view.adapter.HorVerAdapter;
 import com.treasure.recycler_view.bean.VerGridBean;
 import com.treasure.recycler_view.bean.VerHorBean;
-import com.treasure.recycler_view.divider.SpaceItemDecoration;
+import com.treasure.recycler_view.helper.SpaceItemDecoration;
 import com.treasure.recycler_view.utils.ToastUtil;
 import com.treasure.recycler_view.utils.Tools;
 import com.treasure.recycler_view.widget.LeafLoadView;
